@@ -20,24 +20,29 @@ function myBudget() {
     userInput.appendChild(helloMessage);
 
     userNeeds = document.createElement("p");
-    userNeeds.textContent = `Needs: $ ${needs}`;
+    userNeeds.textContent = `Needs: $${needs}`;
     userInput.appendChild(userNeeds);
 
     userSavings = document.createElement("p");
-    userSavings.textContent = `Savings: $ ${savings}`;
+    userSavings.textContent = `Savings: $${savings}`;
     userInput.appendChild(userSavings);
 
     userWants = document.createElement("p");
-    userWants.textContent = `Wants: $ ${wants}`;
+    userWants.textContent = `Wants: $${wants}`;
     userInput.appendChild(userWants);
-
-
-
-
 
 }
 
 document.getElementById("addButton").addEventListener("click", myBudget);
+
+function inputYourNeeds() {
+
+}
+
+document.getElementById("addNeedButton").addEventListener("click", inputYourNeeds);
+
+
+
 
 // document.addEventListener()
 // addButton.addEventListener('click', function () {})
