@@ -1,15 +1,18 @@
 //Begin Button
+//variables
+let person = "";
+let budget = Number(0);
+let needs = Number(0);
+let savings = Number(0);
+let wants = Number(0);
+
 function myBudget() {
 
 }
 
 document.getElementById(beginSection).addEventListener("click", myBudget);
 
-let person = "";
-let budget = Number(0);
-let needs = Number(0);
-let savings = Number(0);
-let wants = Number(0);
+
 
 
 
