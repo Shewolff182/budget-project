@@ -1,4 +1,9 @@
-
+//Begin Button
+let person = "";
+let budget = Number(0);
+let needs = Number(0);
+let savings = Number(0);
+let wants = Number(0);
 
 
 
