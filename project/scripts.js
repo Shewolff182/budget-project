@@ -13,16 +13,17 @@ function myBudget() {
     savings = budget * .2;
     wants = budget * .3;
 
-    userInput = document.getElementById(part1);
+    userInput = document.getElementById("part1");
     helloMessage = document.createElement("p");
-    helloMessage.textContent = `Hello ${person}! Here is your budget for this month:`;
-    helloMessage.appencChild(userInput);
+    helloMessage.textContent = `Hello ${person}! Here is your budget for this month: $ ${budget}`;
+    userInput.appendChild(helloMessage);
 
 }
 
-document.getElementById(beginSection).addEventListener("click", myBudget);
+document.getElementById("addButton").addEventListener("click", myBudget);
 
-
+// document.addEventListener()
+// addButton.addEventListener('click', function () {})
 
 
 
