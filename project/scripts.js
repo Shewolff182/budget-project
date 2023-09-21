@@ -7,6 +7,16 @@ let savings = Number(0);
 let wants = Number(0);
 
 function myBudget() {
+    person = prompt("Please enter your name or ID");
+    budget = prompt("Please enter your monthly salary");
+    needs = budget * .5;
+    savings = budget * .2;
+    wants = budget * .3;
+
+    userInput = document.getElementById(part1);
+    helloMessage = document.createElement("p");
+    helloMessage.textContent = `Hello ${person}! Here is your budget for this month:`;
+    helloMessage.appencChild(userInput);
 
 }
 
