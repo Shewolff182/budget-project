@@ -14,9 +14,26 @@ function myBudget() {
     wants = budget * .3;
 
     userInput = document.getElementById("part1");
+
     helloMessage = document.createElement("p");
     helloMessage.textContent = `Hello ${person}! Here is your budget for this month: $ ${budget}`;
     userInput.appendChild(helloMessage);
+
+    userNeeds = document.createElement("p");
+    userNeeds.textContent = `Needs: $ ${needs}`;
+    userInput.appendChild(userNeeds);
+
+    userSavings = document.createElement("p");
+    userSavings.textContent = `Savings: $ ${savings}`;
+    userInput.appendChild(userSavings);
+
+    userWants = document.createElement("p");
+    userWants.textContent = `Wants: $ ${wants}`;
+    userInput.appendChild(userWants);
+
+
+
+
 
 }
 
