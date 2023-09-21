@@ -1,4 +1,10 @@
 //Begin Button
+function myBudget() {
+
+}
+
+document.getElementById(beginSection).addEventListener("click", myBudget);
+
 let person = "";
 let budget = Number(0);
 let needs = Number(0);
